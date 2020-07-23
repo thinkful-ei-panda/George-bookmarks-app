@@ -1,0 +1,215 @@
+* {
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 416px) {
+body {
+  background-color: #f0544f;
+  font-family: Leckerli One;
+}
+
+.mainContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+h1 {
+  font-size: 1.6rem;
+}
+
+#addNew, .bookmarkFilter, .cancel-btn, .submit-btn, .delete-btn, .expand-btn {
+  border-radius: 10px;
+  font-family: Patrick Hand;
+  font-size: 1.2rem;
+}
+
+.optionsContainer {
+  display: flex;
+  flex-direction: row;
+}
+
+.addBookmarkContainer {
+  margin: 2rem;
+}
+
+label {
+  text-align: center;
+}
+
+.bookmarks-list {
+  background-color: #331832;
+  border: solid 1px rgb(209, 196, 196);
+  border-radius: 8px;
+  padding: 2rem 6rem;
+}
+
+.expandedInfo {
+
+}
+
+li {
+  list-style-type: decimal;
+  color: #fdf0d5;
+  margin-bottom: 4rem;
+}
+
+.addBookmarkForm {
+  margin-bottom: 2rem;
+  background-color: #331832;
+  color: white;
+}
+
+legend {
+
+}
+
+fieldset {
+  border: none;
+  text-align: center;
+}
+
+
+.rating, .title, .url, .description {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  display: block
+}
+
+.formButtons {
+  margin-top: 1rem;
+}
+
+a:link {
+  color: #fdf0d5;
+}
+
+a:visited {
+  color: #D81E5B;
+}
+
+a:hover {
+  color: black;
+}
+
+a:target {
+
+}
+
+.detailsAndDelete {
+  display: flex;
+  flex-direction: row;
+}
+
+.noResults {
+  color: white;
+}
+}
+
+@media screen and (min-width: 416px ) {
+  body {
+    background-color: #f0544f;
+    font-family: Leckerli One;
+  }
+  
+  .mainContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  h1 {
+    font-size: 2rem;
+  }
+  
+  #addNew, .bookmarkFilter, .cancel-btn, .submit-btn, .delete-btn, .expand-btn {
+    border-radius: 10px;
+    font-family: Patrick Hand;
+    font-size: 1.2rem;
+  }
+  
+  .optionsContainer {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .addBookmarkContainer {
+    margin: 2rem;
+  }
+  
+  label {
+    text-align: center;
+  }
+  
+  .bookmarks-list {
+    background-color: #331832;
+    border: solid 1px rgb(209, 196, 196);
+    border-radius: 8px;
+    padding: 2rem 6rem;
+  }
+  
+  .expandedInfo {
+  
+  }
+  
+  li {
+    list-style-type: decimal;
+    color: #fdf0d5;
+    margin-bottom: 4rem;
+  }
+  
+  .addBookmarkForm {
+    margin-bottom: 2rem;
+    background-color: #331832;
+    color: white;
+  }
+  
+  legend {
+  
+  }
+  
+  fieldset {
+    border: none;
+    text-align: center;
+  }
+  
+  
+  .rating, .title, .url, .description {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: block
+  }
+  
+  .formButtons {
+    margin-top: 1rem;
+  }
+  
+  a:link {
+    color: #fdf0d5;
+  }
+  
+  a:visited {
+    color: #D81E5B;
+  }
+  
+  a:hover {
+    color: black;
+  }
+  
+  a:target {
+  
+  }
+  
+  .detailsAndDelete {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .noResults {
+    color: white;
+  }
+
+  .error-msg {
+    color: white;
+  }
+}

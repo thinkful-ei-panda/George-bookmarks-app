@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bookmarks App</title>
+</head>
+<body>
+  <!-- Initial View -->
+  <header>
+    <h1>My Bookmarks</h1>
+  </header>
+  
+  <main>
+    <button id="addNew" name="addNew">New Bookmark</button>
+    <label for="filterBookmark">Filter By:</label>
+    <select id="filterBookmark" placeholder="Filter By">
+      <option>One Star</option>
+    </select>
+    
+    <ul>
+      <li>Bookmark 1 
+        <p>Rating:</p>
+        <a href="#">Visit Site</a>
+        <p>Description: Lorem Ipsum dolor sit</p>
+        <button id="deleteBookmark">Delete</button>
+      </li>
+      
+      <li>Bookmark 2</li>
+      <p>Rating:</p>
+      <li>Bookmark 3</li>
+      <p>Rating:</p>
+    </ul>
+
+    <form>
+      
+      <label for="addNewBookmark"></label>
+      <input type="text" placeholder="Bookmark Title" id="addNewBookmark" name="addNewBookmark"/>
+
+      <input type="text" placeholder="Link"/>
+      <select id="rating">
+      <option>
+        One Star
+      </option>
+      </select>
+
+      <textarea id="addDescription" placeholder="Description"></textarea>
+      <button type="submit">Submit</button>
+    </form>
+
+  </main>
+
+</body>
+</html>
