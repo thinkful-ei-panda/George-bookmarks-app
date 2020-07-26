@@ -17,7 +17,7 @@ const bookmarkItem = () => {
   }
 
   if (bookmarks.length === 0) {
-    return `<div class='noResults'>No results found</div>`
+    return `<div class='noResults'>Add a bookmark!</div>`
   }
   return bookmarks.map(bookmark => {
     const expandedView = `
@@ -53,7 +53,7 @@ const bookmarkForm = `
 
 
       <label>Rating
-      <input type='text' placeholder='Rating' class='rating' id="rating" name="rating" required/>
+      <input type='text' placeholder='Rating 1-5' class='rating' id="rating" name="rating" required/>
       </label>
 
 
